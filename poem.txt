@@ -1,3 +1,4 @@
+The rainbow
 violet
 indigo
 blue
@@ -5,3 +6,4 @@ green
 yellow
 orange
 red
+These are the colours of the rainbow.
