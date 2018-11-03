@@ -3,6 +3,7 @@ violet
 indigo
 blue
 green
+light green
 unicorn
 yellow
 orange
