@@ -11,6 +11,7 @@ document.getElementById("unitRea").innerHTML = "\xB0R";
 document.getElementById("rangeKel").innerHTML = "273" + "\xB0" + "K - 373" + "\xB0" + "K";
 document.getElementById("unitKel").innerHTML = "\xB0K";
 
+//Convert Temperature
 function celToFah(cel){
     var fah = cel / 5 * 9 + 32;
     return fah;

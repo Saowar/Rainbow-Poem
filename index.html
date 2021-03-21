@@ -2,65 +2,67 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="CSS/bootstrap.min.css"> <!-- Bootstrap Style -->
+    <link rel="stylesheet" href="CSS/all.min.css"> <!-- Font Awesome Style -->
+    <link rel="stylesheet" href="CSS/myStyles.css"> <!-- My Own Style -->
+
+    <!-- Script -->
+    <script src="JS/jQuery_3_6_0.js" type="text/javascript"></script> <!-- jQuery Script -->
+    <script src="JS/bootstrap.min.js" type="text/javascript"></script> <!-- Bootstrap Script -->
+
     <title>Convert Temperature</title>
 </head>
 <body>
     <div class="container">
-        <div class="row">
+        <div class="row"> <!--Celsius-->
+            <div class="col-6" style="background-color: thistle;">
+                <span id="rangeCel"></span>
+            </div>
+            <div class="col-4" style="background-color: violet;">
+                <input type="number" id="celsius" min="0" max="100" placeholder="0 - 100">
+            </div>
+            <div class="col-2" style="background-color: fuchsia;">
+                <span id="unitCel"></span>
+            </div>
         </div>
-        <div class="row">
+        <div class="row"> <!--Fahrenheit-->
+            <div class="col-6" style="background-color: khaki;">
+                <span id="rangeFah"></span>
+            </div>
+            <div class="col-4" style="background-color: goldenrod;">
+                <input type="number" id="fahrenheit" min="32" max="212" placeholder="32 - 212">
+            </div>
+            <div class="col-2" style="background-color: orange;">
+                <span id="unitFah"></span>
+            </div>
         </div>
-        <div class="row">
+        <div class="row"> <!--Reaumur-->
+            <div class="col-6" style="background-color: lightblue;">
+                <span id="rangeRea"></span>
+            </div>
+            <div class="col-4" style="background-color: lightskyblue;">
+                <input type="number" id="reaumur" min="0" max="80" placeholder="0 - 80">
+            </div>
+            <div class="col-2" style="background-color: royalblue;">
+                <span id="unitRea"></span>
+            </div>
         </div>
-        <div class="row">
+        <div class="row"> <!--Kelvin-->
+            <div class="col-6" style="background-color: yellow">
+                <span id="rangeKel"></span>
+            </div>
+            <div class="col-4" style ="background-color: yellowgreen;">
+                <input type="number" id="kelvin" min="273" max="373" placeholder="273 - 373">
+            </div>
+            <div class="col-2" style="background-color: green;">
+                <span id="unitKel"></span>
+            </div>
         </div>
     </div>
-   <table>
-       <tr>
-           <td>
-               <span id="rangeCel"></span>
-           </td>
-           <td>
-               <input type="number" id="celsius" min="0" max="100" placeholder="0 - 100">
-           </td>
-           <td>
-               <span id="unitCel"></span>
-           </td>
-       </tr>
-       <tr>
-           <td>
-               <span id="rangeFah"></span>
-           </td>
-           <td>
-               <input type="number" id="fahrenheit" min="32" max="212" placeholder="32 - 212">
-           </td>
-           <td>
-               <span id="unitFah"></span>
-           </td>
-       </tr>
-       <tr>
-           <td>
-               <span id="rangeRea"></span>
-           </td>
-           <td>
-               <input type="number" id="reaumur" min="0" max="80" placeholder="0 - 80">
-           </td>
-           <td>
-               <span id="unitRea"></span>
-           </td>
-       </tr>
-       <tr>
-           <td>
-               <span id="rangeKel"></span>
-           </td>
-           <td>
-               <input type="number" id="kelvin" min="273" max="373" placeholder="273 - 373">
-           </td>
-           <td>
-               <span id="unitKel"></span>
-           </td>
-       </tr>
-   </table>
-   <script src="JS/convertTemp.js"></script>
+    
+    <script src="JS/convertTemp.js" type="text/javascript"></script>
+
 </body>
 </html>

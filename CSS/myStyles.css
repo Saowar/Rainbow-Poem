@@ -1,8 +1,10 @@
 body{
-    /* background-color: #F5DF4D; /* Illuminating */
-    background-color: white;
-    color: #939597; /* Ultimate Gray */
     font-family: 'Poppins';
+}
+
+.container-fluid{
+    background-color: #F5DF4D; /* Illuminating */
+    color: #939597; /* Ultimate Gray */
 }
 
 .profile-wrapper{
