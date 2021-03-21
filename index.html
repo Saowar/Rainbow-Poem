@@ -2,15 +2,65 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Rainbow - Poem Repository</title>
-
+    <title>Convert Temperature</title>
 </head>
-
 <body>
-
-    <h1 style="background-color: salmon;">This is a Header </h1>
-    <p>This is a paragraph 1</p>
-    <p>This is a paragraph 2</p>
-   
+    <div class="container">
+        <div class="row">
+        </div>
+        <div class="row">
+        </div>
+        <div class="row">
+        </div>
+        <div class="row">
+        </div>
+    </div>
+   <table>
+       <tr>
+           <td>
+               <span id="rangeCel"></span>
+           </td>
+           <td>
+               <input type="number" id="celsius" min="0" max="100" placeholder="0 - 100">
+           </td>
+           <td>
+               <span id="unitCel"></span>
+           </td>
+       </tr>
+       <tr>
+           <td>
+               <span id="rangeFah"></span>
+           </td>
+           <td>
+               <input type="number" id="fahrenheit" min="32" max="212" placeholder="32 - 212">
+           </td>
+           <td>
+               <span id="unitFah"></span>
+           </td>
+       </tr>
+       <tr>
+           <td>
+               <span id="rangeRea"></span>
+           </td>
+           <td>
+               <input type="number" id="reaumur" min="0" max="80" placeholder="0 - 80">
+           </td>
+           <td>
+               <span id="unitRea"></span>
+           </td>
+       </tr>
+       <tr>
+           <td>
+               <span id="rangeKel"></span>
+           </td>
+           <td>
+               <input type="number" id="kelvin" min="273" max="373" placeholder="273 - 373">
+           </td>
+           <td>
+               <span id="unitKel"></span>
+           </td>
+       </tr>
+   </table>
+   <script src="JS/convertTemp.js"></script>
 </body>
 </html>

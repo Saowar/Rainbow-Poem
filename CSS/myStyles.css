@@ -1,0 +1,57 @@
+body{
+    /* background-color: #F5DF4D; /* Illuminating */
+    background-color: white;
+    color: #939597; /* Ultimate Gray */
+    font-family: 'Poppins';
+}
+
+.profile-wrapper{
+    width: 150px;
+    height:150px;
+    margin: auto; /* center */
+    overflow: hidden;
+    border-radius: 50%;
+
+    background-color: tomato;
+
+    background-image: url(../images/ORG.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.tbl-contact td, .tbl-contact tr, .tbl-contact th{
+    border:none;
+}
+
+.Header{
+    font-weight: bolder;
+
+}
+
+.Company{
+    font-weight: bolder;
+    font-size: '16px';
+    color: #393E46;
+}
+
+.Period{
+    font-weight: bold;
+    font-size: '16px';
+    color: #499BC9;
+}
+
+.Position{
+    font-size: '16px';
+    font-style: italic;
+    color:#919AA8;
+}
+
+.Scope{
+    font-size: '16px';
+    color: #393E46;
+}
+
+@font-face{
+    src: url('../Fonts/Poppins/Poppins-Regular.ttf');
+    font-family: Poppins;
+}

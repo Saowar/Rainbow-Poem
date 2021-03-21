@@ -1,0 +1,47 @@
+body{
+    background-color:#000;
+}
+.container{
+    background-color:#F5DF4D;
+}
+
+.profile-wrapper{
+    width: 150px;
+    height:150px;
+    margin: auto; /* center */
+    overflow: hidden;
+    border-radius: 50%;
+
+    background-color: tomato;
+
+    background-image: url(../images/gal.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.tbl-contact{
+    font-size: large;
+    color: #939597;
+}
+
+.tbl-contact td{
+    background-color: olive;
+}
+
+.tbl-contact td, .tbl-contact tr, .tbl-contact th{
+    border:none;
+}
+
+.fontContent{
+    font-family: 'Thasadith', sans-serif;
+}
+
+.fontHeader{
+    font-family: cursive;
+    color: deepskyblue;
+}
+
+@font-face{
+    src: url('../Fonts/Thasadith/Thasadith-Regular.ttf');
+    font-family: Thasadith;
+}
